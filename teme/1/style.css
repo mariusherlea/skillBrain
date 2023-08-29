@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact Gothic:wght@400&display=swap");
+* {
+  font-family: "Didact Gothic";
+}
+
+#content {
+  padding-left: 0.2rem;
+}
+
+.blue_text {
+  text-decoration: none;
+  color: rgba(0, 88, 137, 1);
+}
+
+.align_to_ul {
+  margin-left: 0rem;
+}
+
+img {
+  width: 10%;
+}
+
+#contact_data {
+  margin: 0 0 0 1rem;
+  padding: 0;
+}
+
+.inline_ul {
+  display: inline-block;
+}
+.remove_bullet {
+  list-style-type: none;
+  margin-left: 0;
+  padding-inline-start: 0;
+}
+.remove_bullet li {
+  margin-left: 0;
+  padding: 0;
+}
+
+.list-horizontal li {
+  display:inline-block;
+}
+
+
+h1 {
+  margin-bottom: 0rem;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+#head {
+  border-top: 1rem solid rgba(0, 88, 137, 1);
+}
+
+.marginlessTop {
+  margin-top: 0rem;
+}
+
+ul {
+  margin-top: 0rem;
+}
+
+#bullet_color {
+  display: flex;
+  color: rgba(0, 88, 137, 1);
+  margin-top: 0rem;
+}
+
+#bullet_color > li {
+  width: 33%;
+}
+
+.overwrite_color {
+  color: black;
+}

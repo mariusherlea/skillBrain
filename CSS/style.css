@@ -1,0 +1,23 @@
+h2 {
+  color: red;
+}
+
+#primul {
+  color: blueviolet;
+}
+.ultimul{
+    background-color: greenyellow;
+}
+.yellow{
+    color: yellow;
+}
+p.yellow, p#secondParagraf, h1{
+  background-color: brown;
+}
+
+.box{
+  border: 2px solid red;
+  margin:20px;
+  padding: 30px;
+  text-align: center;
+}
