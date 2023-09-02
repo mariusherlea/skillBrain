@@ -23,6 +23,7 @@
   max-width: 70em;
   justify-content: center;
   margin: auto;
+  padding: 0 20px;
 }
 
 #app-logo {
@@ -138,11 +139,9 @@
 }
 
 .first-section-right-col {
-  background-image: url(./img/first-section.png);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 34.7em;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
 }
 
 .button-link-margin {
@@ -152,13 +151,14 @@
 #menu-icon {
   width: 28px;
   height: 31px;
+  cursor: pointer;
 }
 
 .menu-icon-resp {
   display: none;
 }
 
-#menu-colapse {
+#menu-coplase {
   display: none;
 }
 
@@ -204,5 +204,24 @@
     ~ .nav-bar-wrapper
     > .nav-bar-buttons-container {
     height: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .section-2-col {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .section-2-col-item {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+
+  /*patch ca nu arata cum trebuie */
+  .content-container {
+    flex-direction: column-reverse;
   }
 }
