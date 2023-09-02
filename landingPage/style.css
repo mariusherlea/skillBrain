@@ -5,7 +5,7 @@
   font-weight: normal;
 }
 
-.nav {
+body > section .nav {
   justify-content: center;
   align-items: center;
 }
@@ -22,8 +22,20 @@
 .content-container {
   max-width: 70em;
   justify-content: center;
-  margin: auto;
   padding: 0 20px;
+}
+
+body > section {
+  margin: 150px auto;
+}
+
+body > section:nth-child(2) {
+  margin-top: 25px;
+}
+
+body > section:last-child {
+  margin-top: 75px;
+  margin-bottom: 0;
 }
 
 #app-logo {
@@ -162,6 +174,47 @@
   display: none;
 }
 
+.section-3-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.section-3-row > h2 {
+  font-weight: 700px;
+  font-size: 2em;
+  line-height: 48px;
+  text-align: center;
+}
+
+.section-row-4-cols {
+  display: grid;
+  grid-template-areas: "grid-col-1 grid-col-2 grid-col-3 grid-col-4";
+  gap: 10px;
+}
+
+.section-row-4-cols-item-1 {
+  grid-area: grid-col-1;
+}
+
+.section-row-4-cols-item-2 {
+  grid-area: grid-col-2;
+}
+
+.section-row-4-cols-item-3 {
+  grid-area: grid-col-3;
+}
+
+.section-row-4-cols-item-4 {
+  grid-area: grid-col-4;
+}
+
+.section-row-4-cols h5 {
+  font-size: 1.38em;
+  font-weight: 600;
+  line-height: 33px;
+}
 @media screen and (max-width: 800px) {
   .menu-icon-resp {
     display: flex;
@@ -218,10 +271,5 @@
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-  }
-
-  /*patch ca nu arata cum trebuie */
-  .content-container {
-    flex-direction: column-reverse;
   }
 }
