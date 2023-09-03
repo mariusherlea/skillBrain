@@ -17,6 +17,7 @@ body > section .nav {
 .row {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .row-centered {
@@ -250,11 +251,7 @@ body > section:last-child {
   font-size: 1em;
   line-height: 26px;
   text-align: center;
-  margin: 20px 0 8px 0;
-}
-
-.section-2-col-item > h2 {
-  margin: 0px;
+  margin: 30px 0 8px 0;
 }
 
 @media screen and (max-width: 850px) {
