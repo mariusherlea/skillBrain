@@ -17,11 +17,14 @@ body > section .nav {
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: center;
 }
 
 .row-centered {
   align-items: center;
+}
+
+.row-centered-nav {
+  justify-content: center;
 }
 
 .content-container {
