@@ -199,6 +199,7 @@ body > section:last-child {
   font-size: 2em;
   line-height: 48px;
   text-align: center;
+  margin: 20px;
 }
 
 .section-row-4-cols {
@@ -242,6 +243,18 @@ body > section:last-child {
 .section-row-4-cols div {
   margin-top: 60px;
   margin-bottom: 30px;
+}
+
+.section-2-col-item > h6 {
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 26px;
+  text-align: center;
+  margin: 20px 0 8px 0;
+}
+
+.section-2-col-item > h2 {
+  margin: 0px;
 }
 
 @media screen and (max-width: 850px) {
