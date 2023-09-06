@@ -282,6 +282,13 @@ body > section:last-child {
   margin-right: 30px;
 }
 
+.avatar-icon {
+  height: 100px;
+  width: 100px;
+}
+.chat-box-left {
+  background-image: url(./);
+}
 @media screen and (max-width: 850px) {
   .section-row-4-cols {
     grid-template-areas: "grid-col-1 grid-col-2" "grid-col-3 grid-col-4";
