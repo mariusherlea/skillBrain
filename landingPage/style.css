@@ -287,26 +287,34 @@ body > section:last-child {
   width: 100px;
 }
 .chat-box {
-  background-image: url(./img/chat-box-left.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position-y: center;
   margin-left: 16px;
   width: auto;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   overflow: visible;
 }
 
 .chat-box-left {
   background-image: url(./img/chat-box-left.png);
+  margin-left: 16px;
 }
 .chat-box-right {
   background-image: url(./img/chat-box-right.png);
+  margin-right: 16px;
 }
 
 .chat-box-wrapper-right {
   flex-direction: row-reverse;
+}
+
+.chat-box-container {
+  width: 100%;
+}
+.chat-box > p {
+  padding: 10px;
 }
 
 @media screen and (max-width: 850px) {
