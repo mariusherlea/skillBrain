@@ -377,6 +377,10 @@ body > section:last-child {
   color: #02897a;
 }
 
+.client > .content-container > .content-left-col {
+  align-items: center;
+}
+
 @media screen and (max-width: 850px) {
   .section-row-4-cols {
     grid-template-areas: "grid-col-1 grid-col-2" "grid-col-3 grid-col-4";
