@@ -345,6 +345,14 @@ body > section:last-child {
   border-radius: 10px;
 }
 
+.price-table > .content-container > .content-left-col {
+  align-items: center;
+}
+
+.price-table > .content-container > .section-row-4-cols-item-1 {
+  background-color: #fff;
+}
+
 @media screen and (max-width: 850px) {
   .section-row-4-cols {
     grid-template-areas: "grid-col-1 grid-col-2" "grid-col-3 grid-col-4";
