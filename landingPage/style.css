@@ -316,6 +316,35 @@ body > section:last-child {
   padding: 10px;
 }
 
+.section-2-image {
+  width: 100%;
+  height: auto;
+}
+
+.no-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  overflow: visible;
+}
+
+.no-bg > .content-container {
+  align-items: flex-start;
+}
+
+.no-bg > .content-left-align {
+  text-align: left;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.section-2-image {
+  height: 50%;
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 850px) {
   .section-row-4-cols {
     grid-template-areas: "grid-col-1 grid-col-2" "grid-col-3 grid-col-4";
