@@ -381,6 +381,27 @@ body > section:last-child {
   color: #02897a;
 }
 
+.client .section-row-4-cols {
+  display: flex;
+  justify-content: center;
+}
+
+.client .section-row-4-cols div {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.client > .section-row-4-cols > div > div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 0px;
+}
+.client .section-row-4-cols div h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 850px) {
   .section-row-4-cols {
     grid-template-areas: "grid-col-1 grid-col-2" "grid-col-3 grid-col-4";
