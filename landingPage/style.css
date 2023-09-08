@@ -381,6 +381,21 @@ body > section:last-child {
   align-items: center;
 }
 
+.client > .section-3-row > .section-row-4-cols > div {
+  width: 376px;
+  border: 1px solid black;
+  padding: 0.5rem 0.5rem;
+}
+
+.flexy {
+  display: flex;
+  padding-top: 0;
+}
+
+.client > .section-3-row > .section-row-4-cols div {
+  margin: 0px;
+}
+
 @media screen and (max-width: 850px) {
   .section-row-4-cols {
     grid-template-areas: "grid-col-1 grid-col-2" "grid-col-3 grid-col-4";
