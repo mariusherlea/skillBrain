@@ -345,6 +345,10 @@ body > section:last-child {
   border-radius: 10px;
 }
 
+.price-table {
+  margin-top: 5px;
+}
+
 .price-table > .content-container > .content-left-col {
   align-items: center;
 }
@@ -375,25 +379,6 @@ body > section:last-child {
   border-radius: 8px;
   background: #fff;
   color: #02897a;
-}
-
-.client > .content-container > .content-left-col {
-  align-items: center;
-}
-
-.client > .section-3-row > .section-row-4-cols > div {
-  width: 376px;
-  border: 1px solid black;
-  padding: 0.5rem 0.5rem;
-}
-
-.flexy {
-  display: flex;
-  padding-top: 0;
-}
-
-.client > .section-3-row > .section-row-4-cols div {
-  margin: 0px;
 }
 
 @media screen and (max-width: 850px) {
