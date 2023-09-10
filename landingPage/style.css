@@ -455,6 +455,14 @@ div.inline {
   float: left;
 }
 
+#footer .content-container .section-row-4-cols .section-row-4-cols-item-1 h5 {
+  margin-top: 0px;
+}
+
+#footer .content-container .section-row-4-cols .section-row-4-cols-item-1 img {
+  width: 15%;
+}
+
 @media screen and (max-width: 850px) {
   .section-row-4-cols {
     grid-template-areas: "grid-col-1 grid-col-2" "grid-col-3 grid-col-4";
