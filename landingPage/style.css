@@ -407,15 +407,11 @@ div.inline {
   float: left;
 }
 
-.join > .content-container {
-  width: 700px;
-}
-
-.join > .content-container img {
-  width: 50%;
+#join > .content-container img {
+  width: 100%;
   height: auto;
 }
-.join .section-3-row {
+#join .section-3-row {
   display: flex;
   flex-direction: row;
   border-radius: 32px;
@@ -425,9 +421,9 @@ div.inline {
 
 #join {
   background-color: #02897a;
-  width: 968px;
   height: auto;
-  border-radius: 32px;
+  border-radius: 4rem;
+  width: 70%;
 }
 
 #join p {
@@ -449,6 +445,14 @@ div.inline {
   border: none;
   cursor: pointer;
   padding: 0 1.5em;
+}
+
+#footer
+  .content-container
+  .section-row-4-cols
+  .section-row-4-cols-item-1
+  #app-logo {
+  float: left;
 }
 
 @media screen and (max-width: 850px) {
@@ -525,6 +529,10 @@ div.inline {
 }
 
 @media screen and (max-width: 600px) {
+  #join {
+    flex-direction: column;
+  }
+
   .section-2-col {
     flex-direction: column-reverse;
     justify-content: flex-start;
