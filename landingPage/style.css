@@ -423,6 +423,34 @@ div.inline {
   align-items: center;
 }
 
+#join {
+  background-color: #02897a;
+  width: 968px;
+  height: auto;
+  border-radius: 32px;
+}
+
+#join p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 151.4%; /* 48.448px */
+}
+#join button {
+  color: #02897a;
+  border-radius: 8px;
+  background: #fff;
+  height: 2.6em;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+  padding: 0 1.5em;
+}
+
 @media screen and (max-width: 850px) {
   .section-row-4-cols {
     grid-template-areas: "grid-col-1 grid-col-2" "grid-col-3 grid-col-4";
