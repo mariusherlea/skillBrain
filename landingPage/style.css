@@ -447,6 +447,10 @@ div.inline {
   padding: 0 1.5em;
 }
 
+#footer .content-container .section-row-4-cols {
+  gap: 40px;
+}
+
 #footer
   .content-container
   .section-row-4-cols
@@ -461,6 +465,15 @@ div.inline {
 
 #footer .content-container .section-row-4-cols .section-row-4-cols-item-1 img {
   width: 15%;
+}
+
+#footer .content-container .section-row-4-cols-item-1 {
+  margin-top: 100px;
+}
+
+#footer .content-container .section-row-4-cols-item-4 button {
+  margin-top: 20px;
+  display: block;
 }
 
 @media screen and (max-width: 850px) {
