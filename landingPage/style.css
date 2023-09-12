@@ -81,7 +81,6 @@ body > section:last-child {
   border: none;
   cursor: pointer;
   padding: 0 1.5em;
-  white-space: pre;
 }
 
 .button-outline {
