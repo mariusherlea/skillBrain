@@ -10,6 +10,7 @@
   border-radius: 50%;
   background-color: bisque;
   position: relative;
+  z-index: 1;
 }
 .circle-5 {
   background-color: blue;
@@ -17,6 +18,7 @@
   top: 50%;
   left: 50%;
   transform: translate(50%, 50%);
+  order: 0;
 }
 .circle-4 {
   background-color: green;
@@ -24,6 +26,7 @@
   top: 50%;
   left: 50%;
   transform: translate(0%, 0%);
+  z-index: -1;
 }
 
 .circle-3 {
@@ -32,6 +35,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: -2;
 }
 .circle-2 {
   background-color: orange;
@@ -39,6 +43,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-100%, -100%);
+  z-index: -3;
 }
 
 .circle-1 {
@@ -47,4 +52,5 @@
   top: 50%;
   left: 50%;
   transform: translate(-150%, -150%);
+  z-index: -4;
 }
